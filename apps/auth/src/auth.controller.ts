@@ -45,6 +45,10 @@ export class AuthController {
     user: User
   ) {
     return user
+<<<<<<< HEAD
     console.log()
+=======
+    console.table()
+>>>>>>> master
   }
 }
