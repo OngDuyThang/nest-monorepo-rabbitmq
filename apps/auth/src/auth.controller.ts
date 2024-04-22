@@ -45,6 +45,6 @@ export class AuthController {
     user: User
   ) {
     return user
-    console.table()
+    console.log('')
   }
 }
