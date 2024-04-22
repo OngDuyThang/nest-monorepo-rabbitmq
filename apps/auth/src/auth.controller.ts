@@ -40,7 +40,7 @@ export class AuthController {
   @UseGuards(PrivateJwtGuard)
   @MessagePattern({ cmd: 'validate_jwt' })
   validateJWT(
-    // Cách khác dùng @Payload và authService để xử lý accessToken
+    // Cách khác dùng @Payload và authService để xử lý accessToken 
     @GetUser()
     user: User
   ) {
